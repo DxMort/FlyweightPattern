@@ -8,15 +8,20 @@ namespace FlyeightPattern
         {
             InitializeComponent();
             _characterFactory = new CharacterFabric();
-            comboBoxType.Items.Add("Рыцарь");
-            comboBoxType.Items.Add("Лучник");
-            comboBoxType.Items.Add("Ящер");
+            comboBoxType.Items.Add("ГђГ»Г¶Г Г°Гј");
+            comboBoxType.Items.Add("Г‹ГіГ·Г­ГЁГЄ");
+            comboBoxType.Items.Add("ГџГ№ГҐГ°");
         }
         private void buttonCreate_Click(object sender, EventArgs e)
         {
             if (filePath == "")
             {
-                MessageBox.Show("Выберите изображение");
+                MessageBox.Show("Г‚Г»ГЎГҐГ°ГЁГІГҐ ГЁГ§Г®ГЎГ°Г Г¦ГҐГ­ГЁГҐ");
+                return;
+            }
+            if (textBoxName.Text == "" || comboBoxType.Text == "")
+            {
+                MessageBox.Show("Р—Р°РїРѕР»РЅРёС‚Рµ РІСЃРµ РїРѕР»СЏ");
                 return;
             }
             var character1 = _characterFactory.CreateCharacter(textBoxName.Text, comboBoxType.Text, filePath);
@@ -41,7 +46,7 @@ namespace FlyeightPattern
                     filePath = openFileDialog.FileName;
                     var directoryPath = System.IO.Path.GetDirectoryName(filePath);
                     var fileName = System.IO.Path.GetFileName(filePath);
-                    MessageBox.Show($"{fileName} загружен.", directoryPath, MessageBoxButtons.OK);
+                    MessageBox.Show($"{fileName} Г§Г ГЈГ°ГіГ¦ГҐГ­.", directoryPath, MessageBoxButtons.OK);
                 }
             }
         }
@@ -50,11 +55,11 @@ namespace FlyeightPattern
         {
             if (textBoxExp.Text == "" || textBoxLvl.Text == "")
             {
-                MessageBox.Show("Заполните все поля");
+                MessageBox.Show("Г‡Г ГЇГ®Г«Г­ГЁГІГҐ ГўГ±ГҐ ГЇГ®Г«Гї");
                 return;
             }
             CharacterAtribute charAtr1 = new CharacterAtribute(Convert.ToInt32(textBoxLvl.Text), Convert.ToInt32(textBoxExp.Text));
-            MessageBox.Show($"Уровень: {charAtr1.Level}, опыт: {charAtr1.Experience}");
+            MessageBox.Show($"Г“Г°Г®ГўГҐГ­Гј: {charAtr1.Level}, Г®ГЇГ»ГІ: {charAtr1.Experience}");
         }
     }
 }
