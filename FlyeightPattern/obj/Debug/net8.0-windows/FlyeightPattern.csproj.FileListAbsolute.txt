@@ -1,0 +1,16 @@
+G:\3kyrs\1sem\c#lab\FlyeightPattern\bin\Debug\net8.0-windows\FlyeightPattern.exe
+G:\3kyrs\1sem\c#lab\FlyeightPattern\bin\Debug\net8.0-windows\FlyeightPattern.deps.json
+G:\3kyrs\1sem\c#lab\FlyeightPattern\bin\Debug\net8.0-windows\FlyeightPattern.runtimeconfig.json
+G:\3kyrs\1sem\c#lab\FlyeightPattern\bin\Debug\net8.0-windows\FlyeightPattern.dll
+G:\3kyrs\1sem\c#lab\FlyeightPattern\bin\Debug\net8.0-windows\FlyeightPattern.pdb
+G:\3kyrs\1sem\c#lab\FlyeightPattern\obj\Debug\net8.0-windows\FlyeightPattern.Form1.resources
+G:\3kyrs\1sem\c#lab\FlyeightPattern\obj\Debug\net8.0-windows\FlyeightPattern.csproj.GenerateResource.cache
+G:\3kyrs\1sem\c#lab\FlyeightPattern\obj\Debug\net8.0-windows\FlyeightPattern.GeneratedMSBuildEditorConfig.editorconfig
+G:\3kyrs\1sem\c#lab\FlyeightPattern\obj\Debug\net8.0-windows\FlyeightPattern.AssemblyInfoInputs.cache
+G:\3kyrs\1sem\c#lab\FlyeightPattern\obj\Debug\net8.0-windows\FlyeightPattern.AssemblyInfo.cs
+G:\3kyrs\1sem\c#lab\FlyeightPattern\obj\Debug\net8.0-windows\FlyeightPattern.csproj.CoreCompileInputs.cache
+G:\3kyrs\1sem\c#lab\FlyeightPattern\obj\Debug\net8.0-windows\FlyeightPattern.dll
+G:\3kyrs\1sem\c#lab\FlyeightPattern\obj\Debug\net8.0-windows\refint\FlyeightPattern.dll
+G:\3kyrs\1sem\c#lab\FlyeightPattern\obj\Debug\net8.0-windows\FlyeightPattern.pdb
+G:\3kyrs\1sem\c#lab\FlyeightPattern\obj\Debug\net8.0-windows\FlyeightPattern.genruntimeconfig.cache
+G:\3kyrs\1sem\c#lab\FlyeightPattern\obj\Debug\net8.0-windows\ref\FlyeightPattern.dll
